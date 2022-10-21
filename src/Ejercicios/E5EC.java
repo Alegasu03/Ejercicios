@@ -14,7 +14,7 @@ public class E5EC {
         if (a==0) {
             System.out.println("Error, introduce un dato válido");
         }
-        else if (a>0 && b>0 || a<0 && b<0 || a<0 && b>0 || a>0 && b<0) {
+        else if (a!=0 && b!=0) {
           int resultado=-b/a;
             System.out.println("El valor de X es:" +(-b)+"/"+a+"="+resultado);
         }
